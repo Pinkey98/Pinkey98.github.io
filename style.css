@@ -7,16 +7,7 @@ padding-left: 3%;
 padding-right: 3%;
 padding-bottom: 3%
 }
-@media only screen and (max-width: 768px) {
-div[class="out"] {
-  max-width: 50%;
-  margin-left: 25%;
-  border: 3px; 
-  border-style: ridge;
-  border-color: black;
-  background-color: blanchedalmond;
-  }
-}
+
 
 div[class="out"] {
   max-width: 33%;
