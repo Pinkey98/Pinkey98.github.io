@@ -15,6 +15,16 @@ div[class="out"] {
   border-color: black;
   background-color: blanchedalmond;
   }
+@media only screen and (max-width: 600px) {
+div[class="out"] {
+  max-width: 50%;
+  margin-left: 25%;
+  border: 3px; 
+  border-style: ridge;
+  border-color: black;
+  background-color: blanchedalmond;
+  }
+}
   div[class="output"] {
     border: 1px; 
     border-style: solid;
