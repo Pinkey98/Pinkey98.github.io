@@ -7,15 +7,7 @@ padding-left: 3%;
 padding-right: 3%;
 padding-bottom: 3%
 }
-div[class="out"] {
-  max-width: 33%;
-  margin-left: 33%;
-  border: 3px; 
-  border-style: ridge;
-  border-color: black;
-  background-color: blanchedalmond;
-  }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 768px) {
 div[class="out"] {
   max-width: 50%;
   margin-left: 25%;
@@ -25,6 +17,16 @@ div[class="out"] {
   background-color: blanchedalmond;
   }
 }
+
+div[class="out"] {
+  max-width: 33%;
+  margin-left: 33%;
+  border: 3px; 
+  border-style: ridge;
+  border-color: black;
+  background-color: blanchedalmond;
+  }
+
   div[class="output"] {
     border: 1px; 
     border-style: solid;
