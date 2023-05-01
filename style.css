@@ -71,7 +71,7 @@ h1{
  text-align: center;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-device-width: 768px) {
   body {
     touch-action: pan-x pan-y;
     font-size: 100%; 
