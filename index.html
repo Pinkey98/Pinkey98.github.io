@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="out">
+    <div>
+      <h1>CALCULATOR</h1>
+      <div class="output">
+      <input type="text" id="equation" readonly>
+      <input type="text" id="result" value="0" readonly>
+      </div>
+      </div>
+    <div>
+      <button id="left-bracket" onclick="appendToEquation('(')"> ( </button>
+      <button id="right-bracket" onclick="appendToEquation(')')"> ) </button>
+      <button id="clear" onclick="clearEquation()"> C </button>
+      <button id="backspace" onclick="backspace()"> ← </button>
+    </div>
+    <div>
+      <button class="digit" onclick="appendToEquation('7')"> 7 </button>
+      <button class="digit" onclick="appendToEquation('8')"> 8 </button>
+      <button class="digit" onclick="appendToEquation('9')"> 9 </button>
+      <button class="operator" onclick="appendToEquation('/')"> ÷ </button>
+    </div>
+    <div>
+      <button class="digit" onclick="appendToEquation('4')"> 4 </button>
+      <button class="digit" onclick="appendToEquation('5')"> 5 </button>
+      <button class="digit" onclick="appendToEquation('6')"> 6 </button>
+      <button class="operator" onclick="appendToEquation('*')"> × </button>
+    </div>
+    <div>
+      <button class="digit" onclick="appendToEquation('1')"> 1 </button>
+      <button class="digit" onclick="appendToEquation('2')"> 2 </button>
+      <button class="digit" onclick="appendToEquation('3')"> 3 </button>
+      <button class="operator" onclick="appendToEquation('-')"> - </button>
+    </div>
+    <div>
+      <button class="digit" onclick="appendToEquation('0')"> 0 </button>
+      <button class="digit" onclick="appendToEquation('.')"> . </button>
+      <button class="operator" onclick="appendToEquation('**')"> ^ </button>
+      <button class="operator" onclick="appendToEquation('+')"> + </button>
+    </div>
+    <div>
+      <button id="equal" onclick="calculate()"> = </button>
+    </div>
+    </div>
+  </body>
+</html>

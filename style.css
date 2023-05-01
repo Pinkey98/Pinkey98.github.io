@@ -1,0 +1,105 @@
+/* Style for the calculator container */
+
+div{
+  position: relative;
+max-width: 100%;
+padding-left: 3%;
+padding-right: 3%;
+padding-bottom: 3%
+}
+div[class="out"] {
+  max-width: 33%;
+  margin-left: 33%;
+  border: 3px; 
+  border-style: ridge;
+  border-color: black;
+  background-color: blanchedalmond;
+  }
+  div[class="output"] {
+    border: 1px; 
+    border-style: solid;
+    border-color: black;
+    background-color: beige;
+    }
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style for the equation and result input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  border: none;
+  border-style: hidden;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: right;
+  color: black;
+  background-color: beige;
+  outline: none;
+}
+
+/* Style for the calculator buttons */
+button {
+  width: 21%;
+  height: 50px;
+  font-size: 18px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  border: none;
+  border-radius: 8%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+h1{
+ color: #82b74b;
+ text-align: center;
+}
+
+/* Style for the clear button */
+#clear {
+  background-color: red;
+}
+
+/* Style for the backspace button */
+#backspace {
+  background-color: orange;
+}
+
+/* Style for the equal button */
+#equal {
+  background-color: green;
+}
+
+/* Style for the brackets buttons */
+#left-bracket, #right-bracket {
+  background-color: grey;
+}
+
+/* Style for the digit buttons */
+.digit {
+  background-color: black;
+  color: white;
+}
+
+/* Style for the operator buttons */
+.operator {
+  background-color: blue;
+}
+
+/* Style for the hover effect */
+button:hover {
+  background-color: grey;
+  color: black;
+}
