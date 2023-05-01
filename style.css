@@ -114,6 +114,11 @@ background-color: black;
 color: white;
 cursor: pointer;
 }
+h1{
+  color: #82b74b;
+  text-align: center;
+  font-size: 100px;
+ }
   }
 
 /* Style for the clear button */
