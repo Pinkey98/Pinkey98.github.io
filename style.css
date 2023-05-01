@@ -15,7 +15,7 @@ div[class="out"] {
   border-color: black;
   background-color: blanchedalmond;
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 div[class="out"] {
   max-width: 50%;
   margin-left: 25%;
