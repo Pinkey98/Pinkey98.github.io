@@ -72,6 +72,10 @@ h1{
 }
 
 @media only screen and (max-width: 980px) {
+  body {
+    touch-action: pan-x pan-y;
+    font-size: 100%; 
+    user-select: none; 
   div{
     position: relative;
   max-width: 100%;
