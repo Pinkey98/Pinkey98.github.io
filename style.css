@@ -18,6 +18,17 @@ div[class="out"] {
   background-color: blanchedalmond;
   }
 
+  @media only screen and (max-width: 768px) {
+    div[class="out"] {
+      max-width: 98%;
+      margin-left: 1%;
+      border: 3px; 
+      border-style: ridge;
+      border-color: black;
+      background-color: blanchedalmond;
+      }
+    }
+
   div[class="output"] {
     border: 1px; 
     border-style: solid;
