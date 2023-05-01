@@ -18,43 +18,7 @@ div[class="out"] {
   background-color: blanchedalmond;
   }
 
-  @media only screen and (max-width: 980px) {
-    div[class="out"] {
-      max-width: 98%;
-      margin-left: 1%;
-      border: 3px; 
-      border-style: ridge;
-      border-color: black;
-      background-color: blanchedalmond;
-      }
-    input[type="text"] {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 0px;
-  font-size: 50px;
-  border: none;
-  border-style: hidden;
-  border-radius: 5px;
-  box-sizing: border-box;
-  text-align: right;
-  color: black;
-  background-color: beige;
-  outline: none;
-}
-    button {
-  width: 21%;
-  height: 80px;
-  font-size: 80px;
-  margin-left: 1.5%;
-  margin-right: 1.5%;
-  border: none;
-  border-radius: 8%;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
-    }
-
+ 
   div[class="output"] {
     border: 1px; 
     border-style: solid;
@@ -106,6 +70,51 @@ h1{
  color: #82b74b;
  text-align: center;
 }
+
+@media only screen and (max-width: 980px) {
+  div{
+    position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%
+  }
+  div[class="out"] {
+    max-width: 98%;
+    margin-left: 1%;
+    border: 3px; 
+    border-style: ridge;
+    border-color: black;
+    background-color: blanchedalmond;
+    }
+  input[type="text"] {
+width: 100%;
+padding: 5px;
+margin-bottom: 0px;
+font-size: 50px;
+border: none;
+border-style: hidden;
+border-radius: 5px;
+box-sizing: border-box;
+text-align: right;
+color: black;
+background-color: beige;
+outline: none;
+}
+  button {
+width: 21%;
+height: 100px;
+font-size: 90%;
+margin-left: 1.5%;
+margin-right: 1.5%;
+border: none;
+border-radius: 8%;
+background-color: black;
+color: white;
+cursor: pointer;
+}
+  }
 
 /* Style for the clear button */
 #clear {
