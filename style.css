@@ -18,7 +18,7 @@ div[class="out"] {
   background-color: blanchedalmond;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 980px) {
     div[class="out"] {
       max-width: 98%;
       margin-left: 1%;
